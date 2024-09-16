@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto Slab", serif;
+}
+body {
+  height: 100vh;
+  background-image: url(car.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 200px;
+  box-shadow: 1px 1px 10px 5px wheat;
+  /* background-color: #cba328; */
+  background: linear-gradient(0.25turn, #3f87a6, #cba328, #f69d3c);
+  position: fixed;
+  width: 100%;
+}
+.logo {
+  font-size: 2em;
+  font-weight: 800;
+  color: #5c5346;
+  text-transform: uppercase;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav ul li {
+  margin-left: 10px;
+}
+nav ul li a {
+  font-size: 1.5em;
+  font-weight: 500;
+  color: #5c5346;
+  text-transform: uppercase;
+}
+nav ul li a:hover {
+  color: white;
+  transition: 2s;
+}
+/* //////////////section 2/////////////// */
+.main {
+  padding: 300px 200px;
+}
+section div {
+  color: white;
+  line-height: 30px;
+}
+/* section div h1,h2,a{
+    padding: 10px;
+ } */
+section div h1 {
+  font-size: 3.5em;
+  text-shadow: 5px 5px 1px black;
+  text-transform: uppercase;
+}
+section div button {
+  margin: 50px 0;
+  padding: 20px 50px;
+  border-radius: 10px;
+  font-size: 1.5em;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  transition: 0.5s;
+}
+section div button:hover {
+  background-color: #cba328;
+  color: white;
+  transform: scale(1.1);
+}
+.icons a i {
+  font-size: 35px;
+  color: white;
+  margin-left: 5px;
+  transition: 1s;
+}
+.icons a i:hover {
+  color: #cba328;
+  transform: scale(1.5);
+}
+.cards {
+  background: linear-gradient(0.25turn, #3f87a6, #cba328, #f69d3c);
+  /* background-image: url(tech.jpg); */
+  /* background: transparent;
+  backdrop-filter: blur(15px); */
+  margin-top: 170px;
+  padding: 100px 0;
+}
+.title {
+  text-align: center;
+  font-size: 52px;
+  color: white;
+  margin-bottom: 20px;
+}
+.login {
+  color: white;
+  font-size: 1.5em;
+}
+.faceicon {
+  color: red;
+  font-size: 40px;
+}
+
+.card {
+  background-color: white;
+  box-shadow: 0 2px 4px 2px #29292974;
+  width: 350px;
+  text-align: center;
+  margin: 20px;
+  padding: 30px;
+  border-radius: 10px;
+  transition: 0.7s;
+  cursor: pointer;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.icon img {
+  width: 150px;
+}
+.info {
+  color: black;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  /* gap: 20px; */
+}
+.projects{
+background-color: black;
+}
+.projects .title{
+  padding-top: 60px;
+}
+.project-card{
+  background-color: #fff;
+  border: 1px solid white;
+  border-radius: 10px;
+  width:25em;
+  margin: 20px;
+  transition: 0.7s;
+}
+.project-card:hover{
+  transform: scale(1.1);
+}
+.project-card img{
+  width: 100%;
+  border-radius: 10px;
+
+}
+.pp{
+  color: black;
+}
+.proj-link{
+  display: flex;
+  justify-content: space-between;
+}
+.info-card{
+  padding: 10px;
+}
+.info-card h2{
+  color: black ;
+}
